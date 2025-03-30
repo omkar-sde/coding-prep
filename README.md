@@ -101,6 +101,11 @@
     - Intuition: Keep moving right, if right is small than left, update left, find diff, get max
     - Time Complexity: O(n)
     - Space Complexity: O(1)
+  - [LongestSubstringWithoutRepeatingCharacter_3](src/main/java/org/neetcode150/slidingWindow/LongestSubstringWithoutRepeatingCharacter_3.java)
+    - Problem Statement: Find length of longest substring without duplicate characters 
+    - Intuition: use set to store unique chars. If duplicate found remove until unique again
+    - Time Complexity: O(n)
+    - Space Complexity: O(m), m is set of unique characters
 
   </details>
 
