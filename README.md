@@ -106,7 +106,11 @@
     - Intuition: use set to store unique chars. If duplicate found remove until unique again
     - Time Complexity: O(n)
     - Space Complexity: O(m), m is set of unique characters
-
+  - [LongestRepeatingCharacterReplacement_424](src/main/java/org/neetcode150/slidingWindow/LongestRepeatingCharacterReplacement_424.java)
+    - Problem Statement: In a string, find max length of repeating char if k replacements are allowed
+    - Intuition: HashMap, Increase right char freq if grow, reduce left char freq if shrink. Right - left + 1 - maxFreq > k
+    - Time Complexity: O(n)
+    - Space Complexity: O(m), m is no. of unique chars
   </details>
 
 </details>
