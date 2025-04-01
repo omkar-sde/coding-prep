@@ -111,6 +111,11 @@
     - Intuition: HashMap, Increase right char freq if grow, reduce left char freq if shrink. Right - left + 1 - maxFreq > k
     - Time Complexity: O(n)
     - Space Complexity: O(m), m is no. of unique chars
+  - [PermutationInString_567](src/main/java/org/neetcode150/slidingWindow/PermutationInString_567.java)
+    - Problem Statement: Check if s2 contains permutation of s1 
+    - Intuition: hashmap[26]. Count char matches in s2 of s1 char, start window at s1’s length when iterating over s2. calculate right/left char index, increment/decrement match as it is found. If total matches is 26 true
+    - Time Complexity: O(26) + O(n), n is length of s2
+    - Space Complexity: O(1), except constant space for maps.
   </details>
 
 </details>
