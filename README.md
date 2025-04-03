@@ -3,7 +3,7 @@
 ## Neetcode
 
 <details>
-  <summary>150</summary>
+  <summary>Blind 150 Java</summary>
 
   <details>
     <summary>Arrays and Hashing</summary>
@@ -116,6 +116,15 @@
     - Intuition: hashmap[26]. Count char matches in s2 of s1 char, start window at s1’s length when iterating over s2. calculate right/left char index, increment/decrement match as it is found. If total matches is 26 true
     - Time Complexity: O(26) + O(n), n is length of s2
     - Space Complexity: O(1), except constant space for maps.
+  </details>
+
+  <details>
+    <summary>Stack</summary>
+
+  - [ValidParentheses_20](src/main/java/org/neetcode150/stack/ValidParentheses_20.java)
+    - Problem Statement: Brackets closed properly
+    - Intuition: HashMap. Close to open.Time Complexity: O(n)
+    - Space Complexity: O(n)
   </details>
 
 </details>
