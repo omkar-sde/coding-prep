@@ -125,7 +125,13 @@
     - Problem Statement: Brackets closed properly
     - Intuition: HashMap. Close to open.Time Complexity: O(n)
     - Space Complexity: O(n)
-  </details>
+  - [MinStack_155](/src/main/java/org/neetcode150/stack/MinStack_155.java)
+    - Problem Statement: Postfix expression without parentheses.
+      Intuition: if number push in stack, if operand pop two, perform push.
+      Time Complexity: O(n)
+      Space Complexity: O(n)
+    
+</details>
 
 </details>
 
