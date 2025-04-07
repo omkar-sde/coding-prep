@@ -130,7 +130,12 @@
       Intuition: if number push in stack, if operand pop two, perform push.
       Time Complexity: O(n)
       Space Complexity: O(n)
-    
+  - [EvaluateReversePolishNotation_150](src/main/java/org/neetcode150/stack/EvaluateReversePolishNotation_150.java)
+    - Problem Statement: generate ‘n’ valid parentheses 
+    - Intuition: o = c & o = n; o < n; c < o 
+    - Time Complexity: O(4^n / sqrt(n))
+    - Space Complexity: O(n)
+ 
 </details>
 
 </details>
