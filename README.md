@@ -140,6 +140,11 @@
     - Intuition: o = c & o = n; o < n; c < o
     - Time Complexity: O(4^n / sqrt(n))
     - Space Complexity: O(n)
+  - [DailyTemperatures_739](src/main/java/org/neetcode150/stack/DailyTemperatures_739.java)
+    - Problem Statement: Consecutive temperatures of day are given. Find after how many days the temp will be higher than the current day’s temp.
+    - Intuition: Monotonic stack. Keep adding temp with index, if temp i greater keep poping
+    - Time Complexity: O(n)
+    - Space Complexity: O(n)
  
 </details>
 
