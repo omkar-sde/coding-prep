@@ -148,5 +148,16 @@
  
 </details>
 
+<details>
+<summary>Binary Search</summary>
+
+  - [BinarySearch_704](/src/main/java/org/neetcode150/binarySearch/BinarySearch_704.java)
+    - Problem Statement: Search in sorted array in O(logn)
+    - Intuition: Use pivot
+    - Time Complexity: O(logn)
+    - Space Complexity: O(1)
+
+</details>
+
 </details>
 
