@@ -135,6 +135,11 @@
     - Intuition: o = c & o = n; o < n; c < o 
     - Time Complexity: O(4^n / sqrt(n))
     - Space Complexity: O(n)
+  - [GenerateParentheses_22](src/main/java/org/neetcode150/stack/GenerateParentheses_22.java)
+    - Problem Statement: generate ‘n’ valid parentheses 
+    - Intuition: o = c & o = n; o < n; c < o
+    - Time Complexity: O(4^n / sqrt(n))
+    - Space Complexity: O(n)
  
 </details>
 
