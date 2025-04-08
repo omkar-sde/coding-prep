@@ -145,6 +145,11 @@
     - Intuition: Monotonic stack. Keep adding temp with index, if temp i greater keep poping
     - Time Complexity: O(n)
     - Space Complexity: O(n)
+  - [CarFleet_853](/src/main/java/org/neetcode150/stack/CarFleet_853.java)
+    - Problem Statement: Car fleet. Fleet of cars reaching a target. Position and speed are given
+    - Intuition: Create pair(p,s). Sort descending. Calculate time taken for car to reach target. Compare it with time taken of the previous.
+    - Time Complexity: O(nlogn)
+    - Space Complexity: O(1)
  
 </details>
 
@@ -156,6 +161,7 @@
     - Intuition: Use pivot
     - Time Complexity: O(logn)
     - Space Complexity: O(1)
+  
 
 </details>
 
