@@ -161,7 +161,11 @@
     - Intuition: Use pivot
     - Time Complexity: O(logn)
     - Space Complexity: O(1)
-  
+- [SearchA2DMatrix_74](/src/main/java/org/neetcode150/binarySearch/SearchA2DMatrix_74.java)
+  - Problem Statement: Binary search in 2D matrix
+  - Intuition: calculate index row = mid / n
+  - Time Complexity: O(log(m*n))
+  - Space Complexity: O(1)
 
 </details>
 
