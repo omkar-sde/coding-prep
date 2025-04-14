@@ -3,7 +3,7 @@
 ## Neetcode
 
 <details>
-  <summary>150</summary>
+  <summary>Blind 150 Java</summary>
 
   <details>
     <summary>Arrays and Hashing</summary>
@@ -106,8 +106,68 @@
     - Intuition: use set to store unique chars. If duplicate found remove until unique again
     - Time Complexity: O(n)
     - Space Complexity: O(m), m is set of unique characters
-
+  - [LongestRepeatingCharacterReplacement_424](src/main/java/org/neetcode150/slidingWindow/LongestRepeatingCharacterReplacement_424.java)
+    - Problem Statement: In a string, find max length of repeating char if k replacements are allowed
+    - Intuition: HashMap, Increase right char freq if grow, reduce left char freq if shrink. Right - left + 1 - maxFreq > k
+    - Time Complexity: O(n)
+    - Space Complexity: O(m), m is no. of unique chars
+  - [PermutationInString_567](src/main/java/org/neetcode150/slidingWindow/PermutationInString_567.java)
+    - Problem Statement: Check if s2 contains permutation of s1 
+    - Intuition: hashmap[26]. Count char matches in s2 of s1 char, start window at s1’s length when iterating over s2. calculate right/left char index, increment/decrement match as it is found. If total matches is 26 true
+    - Time Complexity: O(26) + O(n), n is length of s2
+    - Space Complexity: O(1), except constant space for maps.
   </details>
+
+  <details>
+    <summary>Stack</summary>
+
+  - [ValidParentheses_20](src/main/java/org/neetcode150/stack/ValidParentheses_20.java)
+    - Problem Statement: Brackets closed properly
+    - Intuition: HashMap. Close to open.Time Complexity: O(n)
+    - Space Complexity: O(n)
+  - [MinStack_155](/src/main/java/org/neetcode150/stack/MinStack_155.java)
+    - Problem Statement: Postfix expression without parentheses.
+      Intuition: if number push in stack, if operand pop two, perform push.
+      Time Complexity: O(n)
+      Space Complexity: O(n)
+  - [EvaluateReversePolishNotation_150](src/main/java/org/neetcode150/stack/EvaluateReversePolishNotation_150.java)
+    - Problem Statement: generate ‘n’ valid parentheses 
+    - Intuition: o = c & o = n; o < n; c < o 
+    - Time Complexity: O(4^n / sqrt(n))
+    - Space Complexity: O(n)
+  - [GenerateParentheses_22](src/main/java/org/neetcode150/stack/GenerateParentheses_22.java)
+    - Problem Statement: generate ‘n’ valid parentheses 
+    - Intuition: o = c & o = n; o < n; c < o
+    - Time Complexity: O(4^n / sqrt(n))
+    - Space Complexity: O(n)
+  - [DailyTemperatures_739](src/main/java/org/neetcode150/stack/DailyTemperatures_739.java)
+    - Problem Statement: Consecutive temperatures of day are given. Find after how many days the temp will be higher than the current day’s temp.
+    - Intuition: Monotonic stack. Keep adding temp with index, if temp i greater keep poping
+    - Time Complexity: O(n)
+    - Space Complexity: O(n)
+  - [CarFleet_853](/src/main/java/org/neetcode150/stack/CarFleet_853.java)
+    - Problem Statement: Car fleet. Fleet of cars reaching a target. Position and speed are given
+    - Intuition: Create pair(p,s). Sort descending. Calculate time taken for car to reach target. Compare it with time taken of the previous.
+    - Time Complexity: O(nlogn)
+    - Space Complexity: O(1)
+ 
+</details>
+
+<details>
+<summary>Binary Search</summary>
+
+  - [BinarySearch_704](/src/main/java/org/neetcode150/binarySearch/BinarySearch_704.java)
+    - Problem Statement: Search in sorted array in O(logn)
+    - Intuition: Use pivot
+    - Time Complexity: O(logn)
+    - Space Complexity: O(1)
+- [SearchA2DMatrix_74](/src/main/java/org/neetcode150/binarySearch/SearchA2DMatrix_74.java)
+  - Problem Statement: Binary search in 2D matrix
+  - Intuition: calculate index row = mid / n
+  - Time Complexity: O(log(m*n))
+  - Space Complexity: O(1)
+
+</details>
 
 </details>
 
