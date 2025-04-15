@@ -171,7 +171,11 @@
   - Intuition: HashMap<String, List<Pair<K,V>>. A pair class is required. Using binary search find value smaller than the timestamp and get the value associated with it. 
   - Time Complexity: O(1) to set, O(logn) to get 
   - Space Complexity: O(m*n)
-
+- [KokoEatingBananas_875](/src/main/java/org/neetcode150/binarySearch/KokoEatingBananas_875.java)
+  - Problem Statement: Koko likes to eat slow, we have piles of banana in piles[]. Guards go away for h hours. Koko starts eating. Find minimum speed in which koko can finish all bananas before guards comeback 
+  - Intuition: find optimal speed between low speed and high speed. Mid is curr speed and see if koko can finish bananas with curr speed. Find minimum speed to finish all bananas.
+  - Time Complexity: O(n*logm), n is number of piles, m is max bananas in all piles
+  - Space Complexity: O(1)
 </details>
 
 </details>
