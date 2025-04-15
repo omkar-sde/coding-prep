@@ -123,13 +123,14 @@
 
   - [ValidParentheses_20](src/main/java/org/neetcode150/stack/ValidParentheses_20.java)
     - Problem Statement: Brackets closed properly
-    - Intuition: HashMap. Close to open.Time Complexity: O(n)
+    - Intuition: HashMap. Close to open.
+    - Time Complexity: O(n)
     - Space Complexity: O(n)
   - [MinStack_155](/src/main/java/org/neetcode150/stack/MinStack_155.java)
     - Problem Statement: Postfix expression without parentheses.
-      Intuition: if number push in stack, if operand pop two, perform push.
-      Time Complexity: O(n)
-      Space Complexity: O(n)
+    - Intuition: if number push in stack, if operand pop two, perform push.
+    - Time Complexity: O(n)
+    - Space Complexity: O(n)
   - [EvaluateReversePolishNotation_150](src/main/java/org/neetcode150/stack/EvaluateReversePolishNotation_150.java)
     - Problem Statement: generate ‘n’ valid parentheses 
     - Intuition: o = c & o = n; o < n; c < o 
@@ -166,7 +167,21 @@
   - Intuition: calculate index row = mid / n
   - Time Complexity: O(log(m*n))
   - Space Complexity: O(1)
-
+- [TimeBasedKeyValueStore_987](/src/main/java/org/neetcode150/binarySearch/TimeBasedKeyValueStore_987.java)
+  - Problem Statement: Design time based key value structure. Where for a key value is timestamp and value. Define ctor, get and set methods. When getting value, if timestamp is not available, latest timestamp is picked. 
+  - Intuition: HashMap<String, List<Pair<K,V>>. A pair class is required. Using binary search find value smaller than the timestamp and get the value associated with it. 
+  - Time Complexity: O(1) to set, O(logn) to get 
+  - Space Complexity: O(m*n)
+- [KokoEatingBananas_875](/src/main/java/org/neetcode150/binarySearch/KokoEatingBananas_875.java)
+  - Problem Statement: Koko likes to eat slow, we have piles of banana in piles[]. Guards go away for h hours. Koko starts eating. Find minimum speed in which koko can finish all bananas before guards comeback 
+  - Intuition: find optimal speed between low speed and high speed. Mid is curr speed and see if koko can finish bananas with curr speed. Find minimum speed to finish all bananas.
+  - Time Complexity: O(n*logm), n is number of piles, m is max bananas in all piles
+  - Space Complexity: O(1)
+- [FindMinimumInRotatedSortedArray_153](/src/main/java/org/neetcode150/binarySearch/FindMinimumInRotatedSortedArray_153.java)
+  - Problem Statement: An array is sorted and rotated, find the minimum number in it.
+  - Intuition: if num[mid] is greater than num[left] that means all the numbers on left of min are greater and we move left to mid
+  - Time Complexity: O(logn)
+  - Space Complexity: O(1)
 </details>
 
 </details>
