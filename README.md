@@ -166,6 +166,11 @@
   - Intuition: calculate index row = mid / n
   - Time Complexity: O(log(m*n))
   - Space Complexity: O(1)
+- [TimeBasedKeyValueStore_987](/src/main/java/org/neetcode150/binarySearch/TimeBasedKeyValueStore_987.java)
+  - Problem Statement: Design time based key value structure. Where for a key value is timestamp and value. Define ctor, get and set methods. When getting value, if timestamp is not available, latest timestamp is picked. 
+  - Intuition: HashMap<String, List<Pair<K,V>>. A pair class is required. Using binary search find value smaller than the timestamp and get the value associated with it. 
+  - Time Complexity: O(1) to set, O(logn) to get 
+  - Space Complexity: O(m*n)
 
 </details>
 
