@@ -193,6 +193,11 @@
   - Intuition: need, prev, curr and next pointers
   - Time Complexity: O(n)
   - Space Complexity: O(1)
+- [MergeTwoSortedLists_21](/src/main/java/org/neetcode150/linkedList/MergeTwoSortedLists_21.java)
+  - Problem Statement: Merge two sorted lists such that the result is sorted
+  - Intuition: Use a dummy head to mark the beginning of the linked list, move the curr pointer as you iterate over the lists
+  - Time Complexity: O(m+n)
+  - Space Complexity: O(1)
     
 </details>
 
