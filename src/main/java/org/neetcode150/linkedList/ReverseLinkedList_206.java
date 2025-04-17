@@ -20,15 +20,6 @@ public class ReverseLinkedList_206 {
         return prev;
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
-
 
     public static void main(String[] args) {
         ReverseLinkedList_206 sol = new ReverseLinkedList_206();
