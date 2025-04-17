@@ -184,5 +184,17 @@
   - Space Complexity: O(1)
 </details>
 
+<summary>Linked List</summary>
+
+<details>
+
+- [ReverseLinkedList_26](/src/main/java/org/neetcode150/linkedList/ReverseLinkedList_206.java)
+  - Problem Statement: Reverse a singly linked list
+  - Intuition: need, prev, curr and next pointers
+  - Time Complexity: O(n)
+  - Space Complexity: O(1)
+    
+</details>
+
 </details>
 
